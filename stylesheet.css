@@ -1,0 +1,331 @@
+
+
+body{
+    margin: 0px;
+    background-image: url(mbjicons.webp);
+    background-repeat: no-repeat;
+    background-position-x: 236px;
+    background-position-y: 140px;
+    background-size: 50%;
+
+    
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #000000;
+    font-family: outfit; 
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    font-family: outfit;
+    padding: 0px;
+    margin: 0px;
+    flex-direction: column;
+}
+
+.navbar a {
+    color: #3c4043;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+}
+
+.navbar a:hover { 
+    background-color: #C8B392;
+    opacity: 55%;
+    color: white;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: outfit;
+    color: #3c4043;
+}
+
+
+/*.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+} 
+*/
+
+.textbox__img__aboutme {
+    display: flex;
+    justify-content: center;
+    padding-left: 23px;
+    max-width: 100%; 
+}
+
+
+    
+
+.textbox__heading {
+    display: flex;
+    justify-content: center;
+    color: #3c4043;
+    font-family: roboto;
+}
+
+.textbox__paragraphs {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: roboto;
+    
+}
+
+.textbox__paragraphs__aboutme {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    font-family: roboto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    font-size: 20px;
+}
+
+.textbox__img__projects {
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+    margin-left: 44px;
+}
+
+.textbox__buttons {
+    display: flex;
+    justify-content: center;
+    font-family: outfit;
+    text-decoration-line: none;
+    background-color: #C8B392;
+    border-radius: 10px;
+    color: white;
+    margin: auto;
+    border: 1px solid #000000;
+    width: 30%;
+    padding: 10px;
+        
+    
+    /*filter: drop-shadow(30px, 10px, 4px #000000);*/
+}
+
+.textbox__buttons:hover {
+    color: #C8B392;
+    background-color: white;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: #000000;
+    font-family: outfit; 
+    margin-top: 15px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    background-color: #C8B392;
+    font-family: roboto;
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+   /* margin-bottom: 150px;*/
+}
+
+.form__button--submit {
+    display: block;
+    margin: auto;
+    font-family: outfit;
+    text-decoration-line: none;
+    background-color: white;
+    border-radius: 10px;
+    border-color: #C8B392;
+}
+
+input {
+    border-radius: 10px;
+    
+}
+
+select {
+    border-radius: 10px;
+}
+
+textarea {
+    border-radius: 10px;
+}
+
+.animation {
+    width: 400px;
+    height: 400px;
+    background: url('https://i.imghippo.com/files/GZD7521pUM.webp') 0 0 no-repeat;
+    animation: play 2000ms steps(8) infinite; 
+    margin: auto;
+}
+
+@keyframes play {
+    0%{background-position: 0px;}
+    100% { background-position: -3200px; }
+}
+
+
+
+@media screen and (min-width: 480px) {
+    
+    body {
+        background-image: url(mbjicons.webp);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 40%;
+        background-position-y: 150px; 
+    }
+    
+    .welcome {
+        font-size: 60px;
+    }
+
+    .navbar a{
+        font-size: 25px;
+    }
+
+    .textbox__heading{
+        font-size: 50px;
+    }
+
+    .textbox__img__projects {
+        margin: auto;
+    }
+
+    .textbox__paragraphs {
+        font-size: 25px;
+        max-width: 45%;
+        padding-left: 27%;
+    }
+
+    .textbox__buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        border: 1px solid #000000;
+        width: 30%;
+        padding: 10px;
+        
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+
+    body {
+        background-image: url(mbjicons.webp);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 40%;
+        background-position-y: 150px;
+        background-position-x: 1230px;
+
+        
+    }
+
+    main {
+        height: 100vh;
+    }
+
+    .welcome{
+        display: flex;
+        justify-content: center;
+        font-size: 100px;
+
+    }
+
+    .textbox__img__aboutme {
+        display: flex;
+        max-width: 50%;   
+    }
+
+    .textbox__paragraphs__aboutme {
+
+        margin-bottom: 1%;
+        text-align: left;
+    }
+
+    .navbar ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        font-family: outfit;
+        padding: 0px;
+        margin: 0px;
+        flex-direction: row;
+    }
+
+    .textbox__img{
+        padding-left: 23px;
+    }
+
+
+
+    .textbox__heading{
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+        
+    }
+
+    .textbox__paragraphs {
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+    }
+
+    .textbox__buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        border: 1px solid #000000;
+        width: 10%;
+        padding: 10px;
+        
+
+    }
+
+    .form {
+        margin-left: 550px;
+        margin-right: 550px;
+        margin-top: 150px;
+        border-radius: 10px;
+        margin-bottom: 150px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .textbox__img__projects{
+        margin: auto;
+        max-width: 40%;
+    }
+
+    
+
+
+}
+
